@@ -213,7 +213,7 @@ module.exports = (flight) => {
                     color: '#888888',
                     wrap: true,
                     align: 'center',
-                    margin: 'xxs'
+                    margin: 'xs'
                   }
                 ]
               },
@@ -246,7 +246,7 @@ module.exports = (flight) => {
                     text: 'Gate',
                     size: 'xxs',
                     color: '#888888',
-                    margin: 'xxs'
+                    margin: 'xs'
                   }
                 ]
               },
@@ -279,7 +279,7 @@ module.exports = (flight) => {
                     text: 'Carousel',
                     size: 'xxs',
                     color: '#888888',
-                    margin: 'xxs'
+                    margin: 'xs'
                   }
                 ]
               }

@@ -3,7 +3,7 @@ name: Flight Schedule Check & Notify
 on:
   schedule:
     # 支援定時任務，例如每 15 分鐘執行一次（UTC 時間）
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch: # 支援在 GitHub 網頁上手動點擊 "Run workflow"
 
 jobs:

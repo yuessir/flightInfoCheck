@@ -67,7 +67,6 @@ module.exports = (flight) => {
             paddingBottom: '5px',
             paddingStart: '10px',
             paddingEnd: '10px',
-            justifyContent: 'center',
             alignItems: 'center'
           }
         ]
@@ -93,7 +92,7 @@ module.exports = (flight) => {
               {
                 type: 'box',
                 layout: 'vertical',
-                alignItems: 'start',
+                alignItems: 'flex-start',
                 flex: 4,
                 contents: [
                   {
@@ -144,7 +143,7 @@ module.exports = (flight) => {
               {
                 type: 'box',
                 layout: 'vertical',
-                alignItems: 'end',
+                alignItems: 'flex-end',
                 flex: 4,
                 contents: [
                   {

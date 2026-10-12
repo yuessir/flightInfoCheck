@@ -1,0 +1,75 @@
+{
+  "props": {
+    "pageProps": {
+      "flightVarDetailSearchServiceData": {
+        "successFetch": true,
+        "rc": 0,
+        "res": {
+          "topInfo": {
+            "itineraryInfo": {
+              "departCityName": "高雄",
+              "arrivalCityName": "大阪",
+              "flightNo": "CI0176",
+              "plannedDepartDate": "10 月 16 日 週五",
+              "airlineLogoUrl": "https://static.tripcdn.com/modules/flight/airline-logo/ci.png",
+              "airlineName": "中華航空"
+            }
+          },
+          "flightStatusCard": {
+            "statusInfo": {
+              "status": "準點",
+              "statusType": "OnTime",
+              "content": "預計準點起飛，請留意登機廣播。"
+            },
+            "flightInfo": {
+              "departInfo": {
+                "airportCode": "KHH",
+                "time": "15:35",
+                "plannedTime": "15:35",
+                "airportShortName": "高雄 小港國際機場",
+                "terminal": "國際航廈"
+              },
+              "arrivalInfo": {
+                "airportCode": "KIX",
+                "time": "19:35",
+                "plannedTime": "19:35",
+                "airportShortName": "大阪 關西國際機場",
+                "terminal": "T1"
+              }
+            },
+            "coreInfos": [
+              {
+                "title": "辦理登機",
+                "value": "3",
+                "type": "CheckInCounter",
+                "secondaryInfo": [
+                  { "text": "國際線 3 號櫃台" },
+                  { "text": "直到 14:55" }
+                ]
+              },
+              {
+                "title": "登機門",
+                "value": "28",
+                "type": "BoardingGate",
+                "secondaryInfo": []
+              },
+              {
+                "title": "行李",
+                "value": "5",
+                "type": "Baggage",
+                "secondaryInfo": []
+              }
+            ]
+          }
+        }
+      },
+      "query": {
+        "flightNo": "CI0176",
+        "dcode": "KHH",
+        "acode": "KIX",
+        "queryDate": "2026-10-16",
+        "queryTime": "15:35:00"
+      }
+    }
+  }
+}

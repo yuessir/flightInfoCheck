@@ -1,0 +1,75 @@
+{
+  "props": {
+    "pageProps": {
+      "flightVarDetailSearchServiceData": {
+        "successFetch": true,
+        "rc": 0,
+        "res": {
+          "topInfo": {
+            "itineraryInfo": {
+              "departCityName": "台北",
+              "arrivalCityName": "大阪",
+              "flightNo": "D7378",
+              "plannedDepartDate": "10 月 16 日 週五",
+              "airlineLogoUrl": "https://static.tripcdn.com/modules/flight/airline-logo/d7.png",
+              "airlineName": "全亞洲航空"
+            }
+          },
+          "flightStatusCard": {
+            "statusInfo": {
+              "status": "登機中",
+              "statusType": "Boarding",
+              "content": "航班已開始登機，請盡速前往 B4 登機門。"
+            },
+            "flightInfo": {
+              "departInfo": {
+                "airportCode": "TPE",
+                "time": "15:40",
+                "plannedTime": "15:40",
+                "airportShortName": "台北 桃園國際機場",
+                "terminal": "T1"
+              },
+              "arrivalInfo": {
+                "airportCode": "KIX",
+                "time": "19:20",
+                "plannedTime": "19:20",
+                "airportShortName": "大阪 關西國際機場",
+                "terminal": "T1"
+              }
+            },
+            "coreInfos": [
+              {
+                "title": "辦理登機",
+                "value": "12",
+                "type": "CheckInCounter",
+                "secondaryInfo": [
+                  { "text": "1 號報到櫃台" },
+                  { "text": "直到 14:55" }
+                ]
+              },
+              {
+                "title": "登機門",
+                "value": "B4",
+                "type": "BoardingGate",
+                "secondaryInfo": []
+              },
+              {
+                "title": "行李",
+                "value": "4",
+                "type": "Baggage",
+                "secondaryInfo": []
+              }
+            ]
+          }
+        }
+      },
+      "query": {
+        "flightNo": "D7378",
+        "dcode": "TPE",
+        "acode": "KIX",
+        "queryDate": "2026-10-16",
+        "queryTime": "15:40:00"
+      }
+    }
+  }
+}

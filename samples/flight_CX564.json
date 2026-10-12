@@ -1,0 +1,437 @@
+{
+  "props": {
+    "pageProps": {
+      "flightVarDetailSearchServiceData": {
+        "successFetch": true,
+        "rc": 0,
+        "res": {
+          "ResponseStatus": {
+            "Timestamp": "2026-10-12 12:04:56",
+            "Ack": "Success",
+            "Errors": [],
+            "Build": null,
+            "Version": null,
+            "Extension": [
+              {
+                "Id": "flt-roc-guid",
+                "Version": null,
+                "ContentType": null,
+                "Value": "6e34fac8-6bff-4d6d-bde6-f2fc980823f0"
+              },
+              {
+                "Id": "CLOGGING_TRACE_ID",
+                "Version": null,
+                "ContentType": null,
+                "Value": "8567815506508661015"
+              },
+              {
+                "Id": "RootMessageId",
+                "Version": null,
+                "ContentType": null,
+                "Value": "100025527-0a9aef05-497716-11203"
+              }
+            ]
+          },
+          "serviceResult": {
+            "result": 0,
+            "errorCode": null,
+            "errorMessage": null
+          },
+          "topInfo": {
+            "weatherInfo": {
+              "departWeatherInfo": {
+                "cityName": "台北",
+                "weatherType": 1,
+                "weatherName": "晴朗",
+                "lowestTemperature": 25,
+                "highestTemperature": 26,
+                "date": "10 月 12 日",
+                "default": true
+              },
+              "arrivalWeatherInfo": {
+                "cityName": "大阪",
+                "weatherType": 1,
+                "weatherName": "晴朗",
+                "lowestTemperature": 22,
+                "highestTemperature": 26,
+                "date": "10 月 12 日",
+                "default": false
+              },
+              "weatherType": 1
+            },
+            "itineraryInfo": {
+              "departCityName": "台北",
+              "arrivalCityName": "大阪",
+              "flightNo": "CX564",
+              "plannedDepartDate": "10 月 12 日 週一",
+              "airlineLogoUrl": "https://static.tripcdn.com/modules/flight/airline-logo/cx.883e694cde1aced7371962302b5d8ae8.png",
+              "airlineName": "國泰航空公司",
+              "carrierFlightNo": "",
+              "carrierAirlineLogoUrl": "",
+              "carrierAirlineName": ""
+            },
+            "isWreck": false,
+            "searchList": [
+              {
+                "flightNo": "CX564",
+                "departAirportCode": "TPE",
+                "arrivalAirportCode": "KIX",
+                "departDateTime": "2026-10-12 11:05:00",
+                "orderId": null,
+                "defaultFlag": true,
+                "isAttend": false,
+                "canAttend": true
+              }
+            ],
+            "shareUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?isHideNavBar=YES&origin=210&useCTHybrid=1&flightNo=CX564&dcode=TPE&acode=KIX&queryDate=2026-10-12&queryTime=11:44:00&locale=zh-TW",
+            "detailUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?isHideNavBar=YES&origin=&useCTHybrid=1&flightNo=CX564&dcode=TPE&acode=KIX&queryDate=2026-10-12&queryTime=11:44:00&locale=zh-TW"
+          },
+          "flightStatusCard": {
+            "statusInfo": {
+              "status": "飛行途中",
+              "statusType": "Depart",
+              "statusColor": "#05939f",
+              "statusColorType": "Green",
+              "statusColorDark": "#50C6D0",
+              "content": "此航班預計於 1 小時 49 分鐘 內抵達。",
+              "backgroundUrl": "https://dimg04.tripcdn.com/images/1vd5b12000en2j1jeDB29.png",
+              "backgroundDarkUrl": "https://dimg04.tripcdn.com/images/1vd4z12000er1k60bD133.png",
+              "statusIconUrl": "https://dimg04.tripcdn.com/images/1vd4712000en2klto2A73.gif",
+              "statusIconDarlUrl": "https://dimg04.tripcdn.com/images/1vd3512000erdrzcxC3D4.gif",
+              "buttonText": "注意事項",
+              "contentItemList": [
+                {
+                  "type": "answer",
+                  "content": "所有資料均由第三方供應商所提供。如需最新資訊，請聯繫航空公司或機場。"
+                }
+              ]
+            },
+            "flightInfo": {
+              "departInfo": {
+                "airportCode": "TPE",
+                "time": "11:44",
+                "dateTime": "2026-10-12 11:44:00",
+                "timeStamp": 1791776640000,
+                "timeColor": "#0f294d",
+                "timeColorRGBA": "rgba(15, 41, 77,1.00)",
+                "timeType": "Actual",
+                "crossDayText": null,
+                "plannedTimeTitle": "表定：",
+                "plannedTime": "11:05",
+                "plannedDateTime": "2026-10-12 11:05:00",
+                "plannedTimeStamp": 1791774300000,
+                "airportShortName": "台北 臺灣桃園國際機場",
+                "terminal": "T1",
+                "airportType": "N"
+              },
+              "arrivalInfo": {
+                "airportCode": "KIX",
+                "time": "14:53",
+                "dateTime": "2026-10-12 14:53:00",
+                "timeStamp": 1791787980000,
+                "timeColor": "#0f294d",
+                "timeColorRGBA": "rgba(15, 41, 77,1.00)",
+                "timeType": "VeryZhunEstimate",
+                "crossDayText": null,
+                "plannedTimeTitle": "表定：",
+                "plannedTime": "14:50",
+                "plannedDateTime": "2026-10-12 14:50:00",
+                "plannedTimeStamp": 1791787800000,
+                "airportShortName": "大阪 關西國際機場",
+                "terminal": "T1",
+                "airportType": "I"
+              },
+              "progress": 15,
+              "stopOrAlternateType": null,
+              "stopOrAlternateText": null,
+              "stopOrAlternateInfo": null
+            },
+            "coreInfos": [
+              {
+                "title": "辦理登機",
+                "value": "3",
+                "type": "CheckInCounter",
+                "secondaryInfo": [
+                  {
+                    "type": "CheckInEndTime",
+                    "text": "直到 10:05",
+                    "icon": null
+                  }
+                ],
+                "floatCard": {
+                  "title": "辦理登機",
+                  "messages": [
+                    {
+                      "type": "Question",
+                      "content": "報到櫃台："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "經濟艙：<span style=\"font-weight:bold;\">3</span>"
+                    },
+                    {
+                      "type": "Question",
+                      "content": "辦理登機時間："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您航班的辦理登機<span style=\"font-weight:bold;\">截止時間為 10:05</span>。我們建議您盡早辦理登機。"
+                    }
+                  ],
+                  "boardingGateHistory": null
+                },
+                "leaveAirportInfo": null,
+                "noDataSymbol": false
+              },
+              {
+                "title": "登機門",
+                "value": "B7",
+                "type": "BoardingGate",
+                "secondaryInfo": [
+                  {
+                    "type": "ToBoardingGateTime",
+                    "text": "10 分鐘",
+                    "icon": "https://dimg04.tripcdn.com/images/1vd5012000en2h961A148.svg"
+                  }
+                ],
+                "floatCard": {
+                  "title": "登機門",
+                  "messages": [
+                    {
+                      "type": "Question",
+                      "content": "登機門："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您將於 <span style=\"font-weight:bold;\">B7 登機門</span>登機"
+                    },
+                    {
+                      "type": "Question",
+                      "content": "距離安全檢查："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您步行約 <span style=\"font-weight:bold;\">10 分鐘</span>即可抵達登機門"
+                    }
+                  ],
+                  "boardingGateHistory": null
+                },
+                "leaveAirportInfo": null,
+                "noDataSymbol": false
+              },
+              {
+                "title": "行李",
+                "value": "4",
+                "type": "Baggage",
+                "secondaryInfo": [],
+                "floatCard": null,
+                "leaveAirportInfo": {
+                  "withBaggageDuration": null,
+                  "withoutBaggageDuration": null
+                },
+                "noDataSymbol": false
+              }
+            ],
+            "lackInfoContent": null,
+            "lackInfoContentForPage": null
+          },
+          "timeExplain": {
+            "timeExplainTip": "僅供參考。資料由 VariFlight 提供。",
+            "buttonName": "深入了解",
+            "timeExplainItemList": [
+              {
+                "type": "answer",
+                "content": "所有資料均由第三方供應商所提供。如需最新資訊，請聯繫航空公司或機場。"
+              }
+            ]
+          },
+          "orderInfo": null,
+          "arrivalCard": {
+            "title": "關於目的地",
+            "subTitle": "您可能想知道",
+            "weatherCard": {
+              "weatherTypeName": "晴朗",
+              "lowestTemperature": 22,
+              "highestTemperature": 26,
+              "weatherIconUrl": "https://dimg04.tripcdn.com/images/1vd0l12000en2ldfs2D1C.png",
+              "weatherIconDarkUrl": "https://dimg04.tripcdn.com/images/1vd3412000er2hl8gA778.png",
+              "weatherContent": "您抵達當天的天氣預報"
+            },
+            "timeDifferenceCard": {
+              "timeDifference": 1,
+              "timeDifferenceDescription": "時差 +1 小時",
+              "timeDifferenceIcon": "https://dimg04.tripcdn.com/images/1vd5i12000eo95eirD8EF.png",
+              "departCityName": "台北",
+              "arrivalTimeInDepartZone": "13:53",
+              "arrivalCityName": "大阪",
+              "arrivalTimeInArrivalZone": "14:53",
+              "timeDifferenceDarkIcon": "https://dimg04.tripcdn.com/images/1vd4t12000er1uo6s0B9C.png"
+            },
+            "xRecommendCards": null,
+            "otherXProductTypes": null
+          },
+          "historyInfo": {
+            "departCityCode": "TPE",
+            "arriveCityCode": "OSA",
+            "departCityId": 617,
+            "arriveCityId": 219,
+            "departAirportCode": "TPE",
+            "arriveAirportCode": "KIX",
+            "flightNo": "CX564",
+            "departDate": "2026-10-12 11:05:00",
+            "departBuildingShortName": "T1",
+            "arriveBuildingShortName": "T1",
+            "stopAirportCode": "",
+            "stopAirportCityCode": "",
+            "toMixInfo": "",
+            "departDateTimeForRecord": {
+              "plannedDateTime": "2026-10-12 11:05",
+              "plannedDateTimeBeijing": "2026-10-12 11:05",
+              "ReadyDateTime": "2026-10-12 11:06",
+              "ReadyDateTimeBeijing": "2026-10-12 11:06",
+              "actualDateTime": "2026-10-12 11:44",
+              "actualDateTimeBeijing": "2026-10-12 11:44"
+            },
+            "arrivalDateTimeForRecord": {
+              "plannedDateTime": "2026-10-12 14:50",
+              "plannedDateTimeBeijing": "2026-10-12 13:50",
+              "ReadyDateTime": "2026-10-12 14:53",
+              "ReadyDateTimeBeijing": "2026-10-12 13:53",
+              "actualDateTime": null,
+              "actualDateTimeBeijing": null
+            },
+            "isDomestic": false,
+            "departCityName": "台北",
+            "arrivalCityName": "大阪",
+            "oids": null
+          },
+          "askId": 1791777896642,
+          "index": 1,
+          "searchList": [
+            null,
+            {
+              "flightNo": "CX564",
+              "departAirportCode": "TPE",
+              "arrivalAirportCode": "KIX",
+              "departDateTime": "2026-10-12 11:05:00",
+              "orderId": null,
+              "defaultFlag": true,
+              "isAttend": false,
+              "canAttend": true
+            }
+          ],
+          "weatherInfo": {
+            "departWeatherInfo": {
+              "cityName": "台北",
+              "weatherType": 1,
+              "weatherName": "晴朗",
+              "lowestTemperature": 25,
+              "highestTemperature": 26,
+              "date": "10 月 12 日",
+              "default": true
+            },
+            "arrivalWeatherInfo": {
+              "cityName": "大阪",
+              "weatherType": 1,
+              "weatherName": "晴朗",
+              "lowestTemperature": 22,
+              "highestTemperature": 26,
+              "date": "10 月 12 日",
+              "default": false
+            },
+            "weatherType": 1
+          }
+        },
+        "askId": 1791777896642,
+        "isAntiCrawler": false
+      },
+      "weatherType": 1,
+      "tripDomain": "tw.trip.com",
+      "currency": "TWD",
+      "currentPath": 2,
+      "clientId": "09034154116292874790",
+      "query": {
+        "renderPlatform": "",
+        "seo": 1,
+        "envObj": {
+          "env": "prod",
+          "isCtrip": false,
+          "pro": true,
+          "dev": false,
+          "currentUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&isFocus=0&flightNo=CX564&queryDate=2026-10-12&dcode=TPE&acode=KIX&queryTime=11:05:00&locale=zh_TW",
+          "plat": "unknow",
+          "phoneModel": "",
+          "isSupportWebP": true
+        },
+        "hideAddTrip": "true",
+        "isHideNavBar": "YES",
+        "navBarStyle": "gray",
+        "isFocus": "0",
+        "flightNo": "CX564",
+        "queryDate": "2026-10-12",
+        "dcode": "TPE",
+        "acode": "KIX",
+        "queryTime": "11:05:00",
+        "locale": "zh_TW"
+      },
+      "isNewTripSchedule": true,
+      "scheduleTemperature": ""
+    }
+  },
+  "page": "/detail",
+  "query": {
+    "renderPlatform": "",
+    "seo": 1,
+    "envObj": {
+      "env": "prod",
+      "isCtrip": false,
+      "pro": true,
+      "dev": false,
+      "currentUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&isFocus=0&flightNo=CX564&queryDate=2026-10-12&dcode=TPE&acode=KIX&queryTime=11:05:00&locale=zh_TW",
+      "plat": "unknow",
+      "phoneModel": "",
+      "isSupportWebP": true
+    },
+    "hideAddTrip": "true",
+    "isHideNavBar": "YES",
+    "navBarStyle": "gray",
+    "isFocus": "0",
+    "flightNo": "CX564",
+    "queryDate": "2026-10-12",
+    "dcode": "TPE",
+    "acode": "KIX",
+    "queryTime": "11:05:00",
+    "locale": "zh_TW"
+  },
+  "buildId": "xxx",
+  "assetPrefix": "https://ak-s-cw.tripcdn.com/NFES/schedule/1791438098611",
+  "runtimeConfig": {
+    "appPrefix": "/webapp/flight/schedule",
+    "routerConfig": [],
+    "vdReg": "/webapp/(flight|hybrid)/schedule",
+    "AppID": "100013992",
+    "useAres2": false
+  },
+  "isFallback": false,
+  "customServer": true,
+  "gip": true,
+  "isSSR": true,
+  "isForceRender": true,
+  "isServerGetData": true,
+  "__pd": "{\"pd\":{\"r\":26,\"_d\":50,\"_p\":1}}",
+  "version": "6.17.4",
+  "i18nCaptchaURL": "https://ak-s-cw.tripcdn.com/modules/infosec/jigsawCaptcha/jigsaw-captcha.min.70c6e6893d555dd045d1a4110c14953a.macro.js",
+  "__nfesGlobalDatas": {
+    "nfesSharkData": {
+      "key.nfes.errorPage.tip": "無法載入。請稍後重試。",
+      "key.nfes.errorPage.retry": "重試",
+      "key.nfes.errorPage.back": "返回"
+    }
+  },
+  "company": "",
+  "international": true,
+  "fullUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&isFocus=0&flightNo=CX564&queryDate=2026-10-12&dcode=TPE&acode=KIX&queryTime=11:05:00&locale=zh_TW",
+  "isRTL": "",
+  "webcore": {},
+  "scriptLoader": []
+}

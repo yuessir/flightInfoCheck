@@ -1,0 +1,33 @@
+name: Flight Schedule Check & Notify
+
+on:
+  schedule:
+    # 支援定時任務，例如每 15 分鐘執行一次（UTC 時間）
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # 支援在 GitHub 網頁上手動點擊 "Run workflow"
+
+jobs:
+  run-flight-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 簽出代碼
+        uses: actions/checkout@v4
+
+      - name: ⚙️ 設定 Node.js 環境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: 📦 安裝依賴套件
+        run: npm install
+
+      - name: 🚀 執行航班爬蟲並推播至 LINE BOT
+        env:
+          ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
+          LINE_BOT_ENDPOINT: ${{ secrets.LINE_BOT_ENDPOINT }}
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          DEV_MODE: 'false'
+        run: node trip_zenrows.js --prod

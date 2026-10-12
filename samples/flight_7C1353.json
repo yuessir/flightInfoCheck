@@ -1,0 +1,425 @@
+{
+  "props": {
+    "pageProps": {
+      "flightVarDetailSearchServiceData": {
+        "successFetch": true,
+        "rc": 0,
+        "res": {
+          "ResponseStatus": {
+            "Timestamp": "2026-10-12 11:08:32",
+            "Ack": "Success",
+            "Errors": [],
+            "Build": null,
+            "Version": null,
+            "Extension": [
+              {
+                "Id": "flt-roc-guid",
+                "Version": null,
+                "ContentType": null,
+                "Value": "7439e403-c3e0-4eed-83c5-1e0ef904c2ce"
+              },
+              {
+                "Id": "CLOGGING_TRACE_ID",
+                "Version": null,
+                "ContentType": null,
+                "Value": "1881528911215693119"
+              },
+              {
+                "Id": "RootMessageId",
+                "Version": null,
+                "ContentType": null,
+                "Value": "100025527-0a9a4cd0-497715-15449"
+              }
+            ]
+          },
+          "serviceResult": {
+            "result": 0,
+            "errorCode": null,
+            "errorMessage": null
+          },
+          "topInfo": {
+            "weatherInfo": {
+              "departWeatherInfo": {
+                "cityName": "首爾",
+                "weatherType": 3,
+                "weatherName": "小雨",
+                "lowestTemperature": 20,
+                "highestTemperature": 23,
+                "date": "10 月 12 日",
+                "default": false
+              },
+              "arrivalWeatherInfo": {
+                "cityName": "大阪",
+                "weatherType": 1,
+                "weatherName": "晴朗",
+                "lowestTemperature": 22,
+                "highestTemperature": 26,
+                "date": "10 月 12 日",
+                "default": true
+              },
+              "weatherType": 1
+            },
+            "itineraryInfo": {
+              "departCityName": "首爾",
+              "arrivalCityName": "大阪",
+              "flightNo": "LJ233",
+              "plannedDepartDate": "10 月 12 日 週一",
+              "airlineLogoUrl": "https://static.tripcdn.com/modules/flight/airline-logo/lj.464380d0902bcc18acf9364388976f84.png",
+              "airlineName": "真航空",
+              "carrierFlightNo": "",
+              "carrierAirlineLogoUrl": "",
+              "carrierAirlineName": ""
+            },
+            "isWreck": false,
+            "searchList": [
+              {
+                "flightNo": "LJ233",
+                "departAirportCode": "ICN",
+                "arrivalAirportCode": "KIX",
+                "departDateTime": "2026-10-12 10:10:00",
+                "orderId": null,
+                "defaultFlag": true,
+                "isAttend": false,
+                "canAttend": false
+              }
+            ],
+            "shareUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?isHideNavBar=YES&origin=210&useCTHybrid=1&flightNo=LJ233&dcode=ICN&acode=KIX&queryDate=2026-10-12&queryTime=10:38:00&locale=zh-TW",
+            "detailUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?isHideNavBar=YES&origin=&useCTHybrid=1&flightNo=LJ233&dcode=ICN&acode=KIX&queryDate=2026-10-12&queryTime=10:38:00&locale=zh-TW"
+          },
+          "flightStatusCard": {
+            "statusInfo": {
+              "status": "已抵達",
+              "statusType": "Arrive",
+              "statusColor": "#05939f",
+              "statusColorType": "Green",
+              "statusColorDark": "#50C6D0",
+              "content": "此航班已提早 1 分鐘 抵達。",
+              "backgroundUrl": "https://dimg04.tripcdn.com/images/1vd5b12000en2j1jeDB29.png",
+              "backgroundDarkUrl": "https://dimg04.tripcdn.com/images/1vd4z12000er1k60bD133.png",
+              "statusIconUrl": "",
+              "statusIconDarlUrl": null,
+              "buttonText": "注意事項",
+              "contentItemList": [
+                {
+                  "type": "answer",
+                  "content": "所有資料均由第三方供應商所提供。如需最新資訊，請聯繫航空公司或機場。"
+                }
+              ]
+            },
+            "flightInfo": {
+              "departInfo": {
+                "airportCode": "ICN",
+                "time": "10:38",
+                "dateTime": "2026-10-12 10:38:00",
+                "timeStamp": 1791772680000,
+                "timeColor": "#0f294d",
+                "timeColorRGBA": "rgba(15, 41, 77,1.00)",
+                "timeType": "Actual",
+                "crossDayText": null,
+                "plannedTimeTitle": "表定：",
+                "plannedTime": "10:10",
+                "plannedDateTime": "2026-10-12 10:10:00",
+                "plannedTimeStamp": 1791771000000,
+                "airportShortName": "首爾 仁川國際機場",
+                "terminal": "T2",
+                "airportType": "I"
+              },
+              "arrivalInfo": {
+                "airportCode": "KIX",
+                "time": "11:59",
+                "dateTime": "2026-10-12 11:59:00",
+                "timeStamp": 1791777540000,
+                "timeColor": "#0f294d",
+                "timeColorRGBA": "rgba(15, 41, 77,1.00)",
+                "timeType": "Actual",
+                "crossDayText": null,
+                "plannedTimeTitle": "表定：",
+                "plannedTime": "12:00",
+                "plannedDateTime": "2026-10-12 12:00:00",
+                "plannedTimeStamp": 1791777600000,
+                "airportShortName": "大阪 關西國際機場",
+                "terminal": "T1",
+                "airportType": "I"
+              },
+              "progress": 100,
+              "stopOrAlternateType": null,
+              "stopOrAlternateText": null,
+              "stopOrAlternateInfo": null
+            },
+            "coreInfos": [
+              {
+                "title": "辦理登機",
+                "value": "E21 - F17",
+                "type": "CheckInCounter",
+                "secondaryInfo": [
+                  {
+                    "type": "RecommendGate",
+                    "text": "6，7 號入口",
+                    "icon": null
+                  },
+                  {
+                    "type": "CheckInEndTime",
+                    "text": "直到 09:10",
+                    "icon": null
+                  }
+                ],
+                "floatCard": {
+                  "title": "辦理登機",
+                  "messages": [
+                    {
+                      "type": "Question",
+                      "content": "報到櫃台："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "經濟艙：<span style=\"font-weight:bold;\">E21 - F17</span>"
+                    },
+                    {
+                      "type": "Question",
+                      "content": "辦理登機時間："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您航班的辦理登機<span style=\"font-weight:bold;\">截止時間為 09:10</span>。我們建議您盡早辦理登機。"
+                    },
+                    {
+                      "type": "Question",
+                      "content": "距離報到櫃台最近的入口"
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "我們建議您從 <span style=\"font-weight:bold;\">6，7 號入口</span>進入機場。該入口距離您的報到區域最近。"
+                    }
+                  ],
+                  "boardingGateHistory": null
+                },
+                "leaveAirportInfo": null,
+                "noDataSymbol": false
+              },
+              {
+                "title": "登機門",
+                "value": "215",
+                "type": "BoardingGate",
+                "secondaryInfo": [],
+                "floatCard": {
+                  "title": "登機門",
+                  "messages": [
+                    {
+                      "type": "Question",
+                      "content": "登機門："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您將於 <span style=\"font-weight:bold;\">215 登機門</span>登機"
+                    }
+                  ],
+                  "boardingGateHistory": null
+                },
+                "leaveAirportInfo": null,
+                "noDataSymbol": false
+              },
+              {
+                "title": "行李",
+                "value": "6",
+                "type": "Baggage",
+                "secondaryInfo": [],
+                "floatCard": null,
+                "leaveAirportInfo": {
+                  "withBaggageDuration": null,
+                  "withoutBaggageDuration": null
+                },
+                "noDataSymbol": false
+              }
+            ],
+            "lackInfoContent": null,
+            "lackInfoContentForPage": null
+          },
+          "timeExplain": {
+            "timeExplainTip": "僅供參考。資料由 VariFlight 提供。",
+            "buttonName": "深入了解",
+            "timeExplainItemList": [
+              {
+                "type": "answer",
+                "content": "所有資料均由第三方供應商所提供。如需最新資訊，請聯繫航空公司或機場。"
+              }
+            ]
+          },
+          "orderInfo": null,
+          "arrivalCard": {
+            "title": "關於目的地",
+            "subTitle": "您可能想知道",
+            "weatherCard": {
+              "weatherTypeName": "晴朗",
+              "lowestTemperature": 22,
+              "highestTemperature": 26,
+              "weatherIconUrl": "https://dimg04.tripcdn.com/images/1vd0l12000en2ldfs2D1C.png",
+              "weatherIconDarkUrl": "https://dimg04.tripcdn.com/images/1vd3412000er2hl8gA778.png",
+              "weatherContent": "您抵達當天的天氣預報"
+            },
+            "timeDifferenceCard": null,
+            "xRecommendCards": null,
+            "otherXProductTypes": null
+          },
+          "historyInfo": {
+            "departCityCode": "SEL",
+            "arriveCityCode": "OSA",
+            "departCityId": 274,
+            "arriveCityId": 219,
+            "departAirportCode": "ICN",
+            "arriveAirportCode": "KIX",
+            "flightNo": "LJ233",
+            "departDate": "2026-10-12 10:10:00",
+            "departBuildingShortName": "T2",
+            "arriveBuildingShortName": "T1",
+            "stopAirportCode": "",
+            "stopAirportCityCode": "",
+            "toMixInfo": "",
+            "departDateTimeForRecord": {
+              "plannedDateTime": "2026-10-12 10:10",
+              "plannedDateTimeBeijing": "2026-10-12 09:10",
+              "ReadyDateTime": "2026-10-12 10:10",
+              "ReadyDateTimeBeijing": "2026-10-12 09:10",
+              "actualDateTime": "2026-10-12 10:38",
+              "actualDateTimeBeijing": "2026-10-12 09:38"
+            },
+            "arrivalDateTimeForRecord": {
+              "plannedDateTime": "2026-10-12 12:00",
+              "plannedDateTimeBeijing": "2026-10-12 11:00",
+              "ReadyDateTime": "2026-10-12 11:58",
+              "ReadyDateTimeBeijing": "2026-10-12 10:58",
+              "actualDateTime": "2026-10-12 11:59",
+              "actualDateTimeBeijing": "2026-10-12 10:59"
+            },
+            "isDomestic": false,
+            "departCityName": "首爾",
+            "arrivalCityName": "大阪",
+            "oids": null
+          },
+          "askId": 1791774512367,
+          "index": 1,
+          "searchList": [
+            null,
+            {
+              "flightNo": "LJ233",
+              "departAirportCode": "ICN",
+              "arrivalAirportCode": "KIX",
+              "departDateTime": "2026-10-12 10:10:00",
+              "orderId": null,
+              "defaultFlag": true,
+              "isAttend": false,
+              "canAttend": false
+            }
+          ],
+          "weatherInfo": {
+            "departWeatherInfo": {
+              "cityName": "首爾",
+              "weatherType": 3,
+              "weatherName": "小雨",
+              "lowestTemperature": 20,
+              "highestTemperature": 23,
+              "date": "10 月 12 日",
+              "default": false
+            },
+            "arrivalWeatherInfo": {
+              "cityName": "大阪",
+              "weatherType": 1,
+              "weatherName": "晴朗",
+              "lowestTemperature": 22,
+              "highestTemperature": 26,
+              "date": "10 月 12 日",
+              "default": true
+            },
+            "weatherType": 1
+          }
+        },
+        "askId": 1791774512367,
+        "isAntiCrawler": false
+      },
+      "weatherType": 1,
+      "tripDomain": "tw.trip.com",
+      "currency": "TWD",
+      "currentPath": 2,
+      "clientId": "09034029416286473970",
+      "query": {
+        "renderPlatform": "",
+        "seo": 1,
+        "envObj": {
+          "env": "prod",
+          "isCtrip": false,
+          "pro": true,
+          "dev": false,
+          "currentUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=LJ233&dcode=ICN&acode=KIX&queryTime=10:10:00&locale=zh_TW",
+          "plat": "unknow",
+          "phoneModel": "",
+          "isSupportWebP": true
+        },
+        "hideAddTrip": "true",
+        "isHideNavBar": "YES",
+        "navBarStyle": "gray",
+        "queryDate": "2026-10-12",
+        "flightNo": "LJ233",
+        "dcode": "ICN",
+        "acode": "KIX",
+        "queryTime": "10:10:00",
+        "locale": "zh_TW"
+      },
+      "isNewTripSchedule": true,
+      "scheduleTemperature": ""
+    }
+  },
+  "page": "/detail",
+  "query": {
+    "renderPlatform": "",
+    "seo": 1,
+    "envObj": {
+      "env": "prod",
+      "isCtrip": false,
+      "pro": true,
+      "dev": false,
+      "currentUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=LJ233&dcode=ICN&acode=KIX&queryTime=10:10:00&locale=zh_TW",
+      "plat": "unknow",
+      "phoneModel": "",
+      "isSupportWebP": true
+    },
+    "hideAddTrip": "true",
+    "isHideNavBar": "YES",
+    "navBarStyle": "gray",
+    "queryDate": "2026-10-12",
+    "flightNo": "LJ233",
+    "dcode": "ICN",
+    "acode": "KIX",
+    "queryTime": "10:10:00",
+    "locale": "zh_TW"
+  },
+  "buildId": "xxx",
+  "assetPrefix": "https://ak-s-cw.tripcdn.com/NFES/schedule/1791438098611",
+  "runtimeConfig": {
+    "appPrefix": "/webapp/flight/schedule",
+    "routerConfig": [],
+    "vdReg": "/webapp/(flight|hybrid)/schedule",
+    "AppID": "100013992",
+    "useAres2": false
+  },
+  "isFallback": false,
+  "customServer": true,
+  "gip": true,
+  "isSSR": true,
+  "isForceRender": true,
+  "isServerGetData": true,
+  "__pd": "{\"pd\":{\"r\":25,\"_d\":46,\"_p\":1}}",
+  "version": "6.17.4",
+  "i18nCaptchaURL": "https://ak-s-cw.tripcdn.com/modules/infosec/jigsawCaptcha/jigsaw-captcha.min.70c6e6893d555dd045d1a4110c14953a.macro.js",
+  "__nfesGlobalDatas": {
+    "nfesSharkData": {
+      "key.nfes.errorPage.tip": "無法載入。請稍後重試。",
+      "key.nfes.errorPage.retry": "重試",
+      "key.nfes.errorPage.back": "返回"
+    }
+  },
+  "company": "",
+  "international": true,
+  "fullUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=LJ233&dcode=ICN&acode=KIX&queryTime=10:10:00&locale=zh_TW",
+  "isRTL": "",
+  "webcore": {},
+  "scriptLoader": []
+}

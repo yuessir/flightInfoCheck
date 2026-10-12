@@ -1,0 +1,2 @@
+https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-16&flightNo=CI0176&dcode=KHH&acode=KIX&queryTime=15:35:00&locale=zh_TW
+https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&isFocus=0&flightNo=D7378&queryDate=2026-10-16&dcode=TPE&acode=KIX&queryTime=15:40:00&locale=zh_TW

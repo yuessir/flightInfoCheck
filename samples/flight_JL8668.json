@@ -1,0 +1,412 @@
+{
+  "props": {
+    "pageProps": {
+      "flightVarDetailSearchServiceData": {
+        "successFetch": true,
+        "rc": 0,
+        "res": {
+          "ResponseStatus": {
+            "Timestamp": "2026-10-12 13:08:02",
+            "Ack": "Success",
+            "Errors": [],
+            "Build": null,
+            "Version": null,
+            "Extension": [
+              {
+                "Id": "flt-roc-guid",
+                "Version": null,
+                "ContentType": null,
+                "Value": "4c4c0127-96c7-49fe-8192-c18cc3810273"
+              },
+              {
+                "Id": "CLOGGING_TRACE_ID",
+                "Version": null,
+                "ContentType": null,
+                "Value": "1669655652830484633"
+              },
+              {
+                "Id": "RootMessageId",
+                "Version": null,
+                "ContentType": null,
+                "Value": "100025527-0a98c57b-497717-24316"
+              }
+            ]
+          },
+          "serviceResult": {
+            "result": 0,
+            "errorCode": null,
+            "errorMessage": null
+          },
+          "topInfo": {
+            "weatherInfo": {
+              "departWeatherInfo": {
+                "cityName": "台北",
+                "weatherType": 1,
+                "weatherName": "晴朗",
+                "lowestTemperature": 25,
+                "highestTemperature": 26,
+                "date": "10 月 12 日",
+                "default": true
+              },
+              "arrivalWeatherInfo": null,
+              "weatherType": 1
+            },
+            "itineraryInfo": {
+              "departCityName": "台北",
+              "arrivalCityName": "大阪",
+              "flightNo": "JL8668",
+              "plannedDepartDate": "10 月 12 日 週一",
+              "airlineLogoUrl": "https://static.tripcdn.com/modules/flight/airline-logo/jl.ac5643db67d8c8a46f41a82c6cab1e59.png",
+              "airlineName": "日本航空公司",
+              "carrierFlightNo": "",
+              "carrierAirlineLogoUrl": "",
+              "carrierAirlineName": ""
+            },
+            "isWreck": false,
+            "searchList": [
+              {
+                "flightNo": "JL8668",
+                "departAirportCode": "TPE",
+                "arrivalAirportCode": "KIX",
+                "departDateTime": "2026-10-12 12:25:00",
+                "orderId": null,
+                "defaultFlag": true,
+                "isAttend": false,
+                "canAttend": true
+              }
+            ],
+            "shareUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?isHideNavBar=YES&origin=210&useCTHybrid=1&flightNo=JL8668&dcode=TPE&acode=KIX&queryDate=2026-10-12&queryTime=12:52:00&locale=zh-TW",
+            "detailUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?isHideNavBar=YES&origin=&useCTHybrid=1&flightNo=JL8668&dcode=TPE&acode=KIX&queryDate=2026-10-12&queryTime=12:52:00&locale=zh-TW"
+          },
+          "flightStatusCard": {
+            "statusInfo": {
+              "status": "飛行途中",
+              "statusType": "Depart",
+              "statusColor": "#05939f",
+              "statusColorType": "Green",
+              "statusColorDark": "#50C6D0",
+              "content": "此航班預計於 1 小時 51 分鐘 內抵達。",
+              "backgroundUrl": "https://dimg04.tripcdn.com/images/1vd5b12000en2j1jeDB29.png",
+              "backgroundDarkUrl": "https://dimg04.tripcdn.com/images/1vd4z12000er1k60bD133.png",
+              "statusIconUrl": "https://dimg04.tripcdn.com/images/1vd4712000en2klto2A73.gif",
+              "statusIconDarlUrl": "https://dimg04.tripcdn.com/images/1vd3512000erdrzcxC3D4.gif",
+              "buttonText": "注意事項",
+              "contentItemList": [
+                {
+                  "type": "answer",
+                  "content": "所有資料均由第三方供應商所提供。如需最新資訊，請聯繫航空公司或機場。"
+                }
+              ]
+            },
+            "flightInfo": {
+              "departInfo": {
+                "airportCode": "TPE",
+                "time": "12:52",
+                "dateTime": "2026-10-12 12:52:00",
+                "timeStamp": 1791780720000,
+                "timeColor": "#0f294d",
+                "timeColorRGBA": "rgba(15, 41, 77,1.00)",
+                "timeType": "Actual",
+                "crossDayText": null,
+                "plannedTimeTitle": "表定：",
+                "plannedTime": "12:25",
+                "plannedDateTime": "2026-10-12 12:25:00",
+                "plannedTimeStamp": 1791779100000,
+                "airportShortName": "台北 臺灣桃園國際機場",
+                "terminal": "T2",
+                "airportType": "N"
+              },
+              "arrivalInfo": {
+                "airportCode": "KIX",
+                "time": "15:59",
+                "dateTime": "2026-10-12 15:59:00",
+                "timeStamp": 1791791940000,
+                "timeColor": "#0f294d",
+                "timeColorRGBA": "rgba(15, 41, 77,1.00)",
+                "timeType": "VeryZhunEstimate",
+                "crossDayText": null,
+                "plannedTimeTitle": "表定：",
+                "plannedTime": "16:05",
+                "plannedDateTime": "2026-10-12 16:05:00",
+                "plannedTimeStamp": 1791792300000,
+                "airportShortName": "大阪 關西國際機場",
+                "terminal": "T1",
+                "airportType": "I"
+              },
+              "progress": 12,
+              "stopOrAlternateType": null,
+              "stopOrAlternateText": null,
+              "stopOrAlternateInfo": null
+            },
+            "coreInfos": [
+              {
+                "title": "辦理登機",
+                "value": "1",
+                "type": "CheckInCounter",
+                "secondaryInfo": [
+                  {
+                    "type": "CheckInEndTime",
+                    "text": "直到 11:25",
+                    "icon": null
+                  }
+                ],
+                "floatCard": {
+                  "title": "辦理登機",
+                  "messages": [
+                    {
+                      "type": "Question",
+                      "content": "報到櫃台："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "經濟艙：<span style=\"font-weight:bold;\">1</span>"
+                    },
+                    {
+                      "type": "Question",
+                      "content": "辦理登機時間："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您航班的辦理登機<span style=\"font-weight:bold;\">截止時間為 11:25</span>。我們建議您盡早辦理登機。"
+                    }
+                  ],
+                  "boardingGateHistory": null
+                },
+                "leaveAirportInfo": null,
+                "noDataSymbol": false
+              },
+              {
+                "title": "登機門",
+                "value": "D6",
+                "type": "BoardingGate",
+                "secondaryInfo": [
+                  {
+                    "type": "ToBoardingGateTime",
+                    "text": "5 分鐘",
+                    "icon": "https://dimg04.tripcdn.com/images/1vd5012000en2h961A148.svg"
+                  }
+                ],
+                "floatCard": {
+                  "title": "登機門",
+                  "messages": [
+                    {
+                      "type": "Question",
+                      "content": "登機門："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您將於 <span style=\"font-weight:bold;\">D6 登機門</span>登機"
+                    },
+                    {
+                      "type": "Question",
+                      "content": "距離安全檢查："
+                    },
+                    {
+                      "type": "Answer",
+                      "content": "您步行約 <span style=\"font-weight:bold;\">5 分鐘</span>即可抵達登機門"
+                    }
+                  ],
+                  "boardingGateHistory": null
+                },
+                "leaveAirportInfo": null,
+                "noDataSymbol": false
+              },
+              {
+                "title": "行李",
+                "value": "6",
+                "type": "Baggage",
+                "secondaryInfo": [],
+                "floatCard": null,
+                "leaveAirportInfo": {
+                  "withBaggageDuration": null,
+                  "withoutBaggageDuration": null
+                },
+                "noDataSymbol": false
+              }
+            ],
+            "lackInfoContent": null,
+            "lackInfoContentForPage": null
+          },
+          "timeExplain": {
+            "timeExplainTip": "僅供參考。資料由 VariFlight 提供。",
+            "buttonName": "深入了解",
+            "timeExplainItemList": [
+              {
+                "type": "answer",
+                "content": "所有資料均由第三方供應商所提供。如需最新資訊，請聯繫航空公司或機場。"
+              }
+            ]
+          },
+          "orderInfo": null,
+          "arrivalCard": {
+            "title": "關於目的地",
+            "subTitle": "您可能想知道",
+            "weatherCard": null,
+            "timeDifferenceCard": {
+              "timeDifference": 1,
+              "timeDifferenceDescription": "時差 +1 小時",
+              "timeDifferenceIcon": "https://dimg04.tripcdn.com/images/1vd5i12000eo95eirD8EF.png",
+              "departCityName": "台北",
+              "arrivalTimeInDepartZone": "14:59",
+              "arrivalCityName": "大阪",
+              "arrivalTimeInArrivalZone": "15:59",
+              "timeDifferenceDarkIcon": "https://dimg04.tripcdn.com/images/1vd4t12000er1uo6s0B9C.png"
+            },
+            "xRecommendCards": null,
+            "otherXProductTypes": null
+          },
+          "historyInfo": {
+            "departCityCode": "TPE",
+            "arriveCityCode": "OSA",
+            "departCityId": 617,
+            "arriveCityId": 219,
+            "departAirportCode": "TPE",
+            "arriveAirportCode": "KIX",
+            "flightNo": "JL8668",
+            "departDate": "2026-10-12 12:25:00",
+            "departBuildingShortName": "T2",
+            "arriveBuildingShortName": "T1",
+            "stopAirportCode": "",
+            "stopAirportCityCode": "",
+            "toMixInfo": "",
+            "departDateTimeForRecord": {
+              "plannedDateTime": "2026-10-12 12:25",
+              "plannedDateTimeBeijing": "2026-10-12 12:25",
+              "ReadyDateTime": "2026-10-12 12:25",
+              "ReadyDateTimeBeijing": "2026-10-12 12:25",
+              "actualDateTime": "2026-10-12 12:52",
+              "actualDateTimeBeijing": "2026-10-12 12:52"
+            },
+            "arrivalDateTimeForRecord": {
+              "plannedDateTime": "2026-10-12 16:05",
+              "plannedDateTimeBeijing": "2026-10-12 15:05",
+              "ReadyDateTime": "2026-10-12 15:59",
+              "ReadyDateTimeBeijing": "2026-10-12 14:59",
+              "actualDateTime": null,
+              "actualDateTimeBeijing": null
+            },
+            "isDomestic": false,
+            "departCityName": "台北",
+            "arrivalCityName": "大阪",
+            "oids": null
+          },
+          "askId": 1791781682901,
+          "index": 1,
+          "searchList": [
+            null,
+            {
+              "flightNo": "JL8668",
+              "departAirportCode": "TPE",
+              "arrivalAirportCode": "KIX",
+              "departDateTime": "2026-10-12 12:25:00",
+              "orderId": null,
+              "defaultFlag": true,
+              "isAttend": false,
+              "canAttend": true
+            }
+          ],
+          "weatherInfo": {
+            "departWeatherInfo": {
+              "cityName": "台北",
+              "weatherType": 1,
+              "weatherName": "晴朗",
+              "lowestTemperature": 25,
+              "highestTemperature": 26,
+              "date": "10 月 12 日",
+              "default": true
+            },
+            "arrivalWeatherInfo": null,
+            "weatherType": 1
+          }
+        },
+        "askId": 1791781682901,
+        "isAntiCrawler": false
+      },
+      "weatherType": 1,
+      "tripDomain": "tw.trip.com",
+      "currency": "TWD",
+      "currentPath": 2,
+      "clientId": "09034162116299546062",
+      "query": {
+        "renderPlatform": "",
+        "seo": 1,
+        "envObj": {
+          "env": "prod",
+          "isCtrip": false,
+          "pro": true,
+          "dev": false,
+          "currentUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=JL8668&dcode=TPE&acode=KIX&queryTime=12:25:00&locale=zh_TW",
+          "plat": "unknow",
+          "phoneModel": "",
+          "isSupportWebP": true
+        },
+        "hideAddTrip": "true",
+        "isHideNavBar": "YES",
+        "navBarStyle": "gray",
+        "queryDate": "2026-10-12",
+        "flightNo": "JL8668",
+        "dcode": "TPE",
+        "acode": "KIX",
+        "queryTime": "12:25:00",
+        "locale": "zh_TW"
+      },
+      "isNewTripSchedule": true,
+      "scheduleTemperature": ""
+    }
+  },
+  "page": "/detail",
+  "query": {
+    "renderPlatform": "",
+    "seo": 1,
+    "envObj": {
+      "env": "prod",
+      "isCtrip": false,
+      "pro": true,
+      "dev": false,
+      "currentUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=JL8668&dcode=TPE&acode=KIX&queryTime=12:25:00&locale=zh_TW",
+      "plat": "unknow",
+      "phoneModel": "",
+      "isSupportWebP": true
+    },
+    "hideAddTrip": "true",
+    "isHideNavBar": "YES",
+    "navBarStyle": "gray",
+    "queryDate": "2026-10-12",
+    "flightNo": "JL8668",
+    "dcode": "TPE",
+    "acode": "KIX",
+    "queryTime": "12:25:00",
+    "locale": "zh_TW"
+  },
+  "buildId": "xxx",
+  "assetPrefix": "https://ak-s-cw.tripcdn.com/NFES/schedule/1791438098611",
+  "runtimeConfig": {
+    "appPrefix": "/webapp/flight/schedule",
+    "routerConfig": [],
+    "vdReg": "/webapp/(flight|hybrid)/schedule",
+    "AppID": "100013992",
+    "useAres2": false
+  },
+  "isFallback": false,
+  "customServer": true,
+  "gip": true,
+  "isSSR": true,
+  "isForceRender": true,
+  "isServerGetData": true,
+  "__pd": "{\"pd\":{\"r\":28,\"_d\":33,\"_p\":2}}",
+  "version": "6.17.4",
+  "i18nCaptchaURL": "https://ak-s-cw.tripcdn.com/modules/infosec/jigsawCaptcha/jigsaw-captcha.min.70c6e6893d555dd045d1a4110c14953a.macro.js",
+  "__nfesGlobalDatas": {
+    "nfesSharkData": {
+      "key.nfes.errorPage.tip": "無法載入。請稍後重試。",
+      "key.nfes.errorPage.retry": "重試",
+      "key.nfes.errorPage.back": "返回"
+    }
+  },
+  "company": "",
+  "international": true,
+  "fullUrl": "https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=JL8668&dcode=TPE&acode=KIX&queryTime=12:25:00&locale=zh_TW",
+  "isRTL": "",
+  "webcore": {},
+  "scriptLoader": []
+}

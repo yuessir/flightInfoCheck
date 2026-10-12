@@ -1,0 +1,75 @@
+{
+  "props": {
+    "pageProps": {
+      "flightVarDetailSearchServiceData": {
+        "successFetch": true,
+        "rc": 0,
+        "res": {
+          "topInfo": {
+            "itineraryInfo": {
+              "departCityName": "首爾",
+              "arrivalCityName": "大阪",
+              "flightNo": "LJ233",
+              "plannedDepartDate": "10 月 12 日 週一",
+              "airlineLogoUrl": "https://static.tripcdn.com/modules/flight/airline-logo/lj.png",
+              "airlineName": "真航空"
+            }
+          },
+          "flightStatusCard": {
+            "statusInfo": {
+              "status": "準點",
+              "statusType": "Plan",
+              "content": "預計準點起飛，請留意登機廣播。"
+            },
+            "flightInfo": {
+              "departInfo": {
+                "airportCode": "ICN",
+                "time": "10:10",
+                "plannedTime": "10:10",
+                "airportShortName": "首爾 仁川國際機場",
+                "terminal": "T2"
+              },
+              "arrivalInfo": {
+                "airportCode": "KIX",
+                "time": "12:00",
+                "plannedTime": "12:00",
+                "airportShortName": "大阪 關西國際機場",
+                "terminal": "T1"
+              }
+            },
+            "coreInfos": [
+              {
+                "title": "辦理登機",
+                "value": "E21 - F17",
+                "type": "CheckInCounter",
+                "secondaryInfo": [
+                  { "text": "6，7 號入口" },
+                  { "text": "直到 09:10" }
+                ]
+              },
+              {
+                "title": "登機門",
+                "value": "215",
+                "type": "BoardingGate",
+                "secondaryInfo": []
+              },
+              {
+                "title": "行李",
+                "value": "-",
+                "type": "Baggage",
+                "secondaryInfo": []
+              }
+            ]
+          }
+        }
+      },
+      "query": {
+        "flightNo": "LJ233",
+        "dcode": "ICN",
+        "acode": "KIX",
+        "queryDate": "2026-10-12",
+        "queryTime": "10:10:00"
+      }
+    }
+  }
+}

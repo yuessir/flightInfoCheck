@@ -1,1 +1,1 @@
-https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=JL8668&dcode=TPE&acode=KIX&queryTime=12:25:00&locale=zh_TW
+https://www.trip.com/webapp/flight/schedule/detail.html?hideAddTrip=true&isHideNavBar=YES&navBarStyle=gray&queryDate=2026-10-12&flightNo=MM28&dcode=TPE&acode=KIX&queryTime=18:15:00&locale=zh_TW
